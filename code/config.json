@@ -1,4 +1,8 @@
 {
     "startMoney":3000,
-    "lowDifficulty":1
+    "lowDifficulty":1,
+    "calcStartEmployees":true,
+    "startEmployees":[1,0,0,0],
+    "employeeCost":10,
+    "employeeRev":15
 }
