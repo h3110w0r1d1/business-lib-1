@@ -5,4 +5,4 @@
 ### Guide
 **main.js**: examples of how to use(so far)
 **business.js**: the main library logic
-**config.json**: change the values in here to change specific attributes about the library. Refer to __ for more information.
+**config.json**: change the values in here to change specific attributes about the library. Refer to the wiki for more information about specific items. Business.js is the main logic file.
