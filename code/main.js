@@ -1,2 +1,8 @@
 const {Business}=require('./business.js');
-console.log("1"+'\n'+JSON.stringify(new Business(1)));
+const example=new Business(2);
+console.log("1"+'\n'+JSON.stringify(example));
+example.tickUpdate();
+console.log("2"+'\n'+JSON.stringify(example));
+example.newAsset(1);
+example.tickUpdate();
+console.log("3"+'\n'+JSON.stringify(example));
