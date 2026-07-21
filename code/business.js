@@ -4,9 +4,8 @@ const raw = fs.readFileSync('./config.json', 'utf8');
 const data = JSON.parse(raw);
 
 
-const raw2 = fs.readFileSync('./businessBase.json', 'utf8');
-const assetBases = JSON.parse(raw2);
-const assetBase=assetBases.Base;//MOVE THIS TO A JSON FILE XD
+
+const assetBase=data.Base;//MOVE THIS TO A JSON FILE XD
 
 
 
@@ -18,17 +17,24 @@ class Business{
     this.employees=new EmployeeManager(difficulty);
 this.assets=[];
     }
+   
     tickUpdate(){
+        this.employees.calcEmployeeProfit();
+    this.employees.calcEmployeeCost();
         var profitMade=Number(this.employees.profit);
         for(let i=0;i<this.assets.length;i++){
             profitMade-=this.assets[i].tickCost;
             profitMade+=this.assets[i].profit;
         }
     this.money+=profitMade;
+ 
+
+
+
     return this.money;
     }
 newAsset(index){
-    if(index<0||index>assetBase.length||assetBase.length!=this.employees.employees.length){throw new Error("Unexpected index length@newAsset@Business")}
+    if(index<0||index>assetBase.length||assetBase[index].reqEmp.length!=this.employees.employees.length){throw new Error("Unexpected index length@newAsset@Business"); return -3;}
     if(assetBase[index].startCost>this.money){return -1;}else{ for(let i=0;i<assetBase[index].reqEmp.length;i++){
         if(this.employees.employees[i]<assetBase[index].reqEmp[i]){return -2;}
     }}
