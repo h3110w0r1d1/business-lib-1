@@ -28,13 +28,13 @@ this.assets=[];
     return this.money;
     }
 newAsset(index){
-    if(index<0||index>assetBase.length){throw new Error("Unexpected index length@newAsset@Business")}
+    if(index<0||index>assetBase.length||assetBase.length!=this.employees.employees.length){throw new Error("Unexpected index length@newAsset@Business")}
     if(assetBase[index].startCost>this.money){return -1;}else{ for(let i=0;i<assetBase[index].reqEmp.length;i++){
         if(this.employees.employees[i]<assetBase[index].reqEmp[i]){return -2;}
     }}
     this.money-=assetBase[index].startCost;
     this.assets.push(assetBase[index]);
-    
+    return 0;
 }
 
 
