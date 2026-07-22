@@ -1,0 +1,33 @@
+
+{
+    "startMoney":3000,
+    "lowDifficulty":1,
+    "calcStartEmployees":true,
+    "startEmployees":[1,0,0,0],
+    "employeeCost":10,
+    "employeeRev":15,
+    "roundPoint":4,
+
+
+
+
+
+
+
+
+    "Base":[
+    {
+        "name":"test1",
+        "reqEmp":[4,0,0,0],
+        "profit":100,
+        "tickCost":10,
+        "startCost":1000 
+    }, {
+        "name":"test2",
+        "reqEmp":[3,0,0,0],
+        "profit":10,
+        "tickCost":10,
+        "startCost":100 
+    }
+]
+}
