@@ -1,4 +1,7 @@
 # business-lib-1
+Note: there are 2 of the same versions. A typescript(always up to date) and a javascript version. Go to /typescript/ for typescript.
+
+
 ## How to Use
 1. remove the code from the /code/ folder.
 2. You now have the Library.
