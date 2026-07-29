@@ -7,14 +7,10 @@
     "employeeCost":10,
     "employeeRev":15,
     "roundPoint":4,
+    "maxEmployeeLevel":3,
 
 
-
-
-
-
-
-
+"randomEvent":true,
     "Base":[
     {
         "name":"test1",
