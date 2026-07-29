@@ -1,11 +1,1 @@
-// SLATED_REMOVAL
-
-import { Business }from'./business';
-import { randomEvent} from './customFunctions';
-var a=new Business(1)
-console.log(a.money);
-//a.tickUpdate();
-a.newAsset(0);
-console.log(JSON.stringify(a.assets.assets));
-
-
+//This file is being Sunset as it contains no critical code. This file was for exclusive use during the development of this repository, however will no longer be uploaded to github.
