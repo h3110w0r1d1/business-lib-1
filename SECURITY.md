@@ -5,8 +5,9 @@ All versions are supported, however note that the versions with an :x: are out o
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 0.0.1a   | :white_check_mark: |
-| 0.0.1b,0.0.1c   | :x: |
+| 0.0.1a   | :x: |
+| 0.0.2a,0.0.b   | :x: |
+| 0.1.0a | 
 
 
 ## Reporting a Vulnerability
