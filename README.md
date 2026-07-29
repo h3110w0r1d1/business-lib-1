@@ -12,3 +12,4 @@ Note: there are 2 of the same versions. A typescript(always up to date) and a ja
 **utils.ts**: utility functions
 **customFunctions.ts**: contains event logic(in v0.1.0a and beyond)
 
+*note: current wiki documentation is out of date. New features in v0.1.0a have not been documented yet. Please have patience as documentation is developed*
