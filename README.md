@@ -4,7 +4,7 @@ Note: there are 2 of the same versions. A typescript(always up to date) and a ja
 
 ## How to Use
 1. download the `/typescript/` folder.
-2. You now have the repository to use(in accordence with the license)
+2. You now have the repository to use(in accordance with the license)
 ### Guide
 **main**: examples of how to use(so far). *has been deprecated in version v0.1.0a and beyond*
 **business.ts**: the main repository logic
