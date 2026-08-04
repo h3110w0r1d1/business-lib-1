@@ -1,1 +1,1 @@
-//Sunset-will be deleted in a future update. do not rely on this file.
+//This file is being Sunset as it contains no critical code. This file was for exclusive use during the development of this repository, however will no longer be uploaded to github.
